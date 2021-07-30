@@ -15,7 +15,9 @@
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
   const clickHandler = (e) => {
-      e.preventDefault();
+      if (window.MC) {
+        e.preventDefault();
+      }      
       
       const chatWindow = document.querySelector('[data-testid="dialog_iframe"]');
       const isVisible = !!chatWindow && chatWindow.offsetHeight > 0;
