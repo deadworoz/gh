@@ -8,9 +8,34 @@
   <link href="favicon.ico" rel="icon" type="image/x-icon">
 
 <!-- ManyChat -->
+<script>window.MANYCHAT_WIDGET_ID = 15311250;</script>
 <script src="//widget.manychat.com/102695008695454.js" defer="defer"></script>
 <script src="https://mccdn.me/assets/js/widget.js" defer="defer"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  const clickHandler = (e) => {
+      e.preventDefault();
+      
+      const chatWindow = document.querySelector('[data-testid="dialog_iframe"]');
+      const isVisible = !!chatWindow && chatWindow.offsetHeight > 0;
+      if (isVisible) {
+          MC.getWidget(window.MANYCHAT_WIDGET_ID).close();
+      } else {
+          MC.getWidget(window.MANYCHAT_WIDGET_ID).open(true);
+      }
+      
+  };
+  const elemList = [];
+  elemList.push(...document.querySelectorAll('#solver'));  
+  for (let i = 0; i < elemList.length; i++) {
+      elemList[i].addEventListener('click', clickHandler);
+  }
+});
+</script>
+
 </head>
 <body>
+  <a id="solver" href="https://m.me/solverchat">Solver chat</a>
 </body>
 </html>
