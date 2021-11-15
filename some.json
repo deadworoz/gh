@@ -4,12 +4,8 @@
         "messages": [
             {
                 "type": "image",
-                "url": "https://solver-prod.s3.eu-central-1.amazonaws.com/prod/answer/47993/1e0664a6-ec7f-4a07-8c02-000750b583b0.png"
-            },
-            {
-                "type": "image",
-                "url": "https://solver-prod.s3.eu-central-1.amazonaws.com/prod/answer/47993/c404fd0b-5d1a-4719-91a9-10a1d023ccb3.png"   
+                "url": "https://solver-prod.s3.eu-central-1.amazonaws.com/prod/import/question/a6881cd6-071b-42e5-a10f-a9291fd832a4.jpg"
             }
         ]
-    }    
+    }
 }
