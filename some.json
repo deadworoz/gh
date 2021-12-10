@@ -9,7 +9,14 @@
                   {
                     "type": "node",
                     "caption": "Show",
-                    "target": "My Content"
+                    "target": "My Content",
+                    "actions": [
+                      {
+                        "action": "set_field_value",
+                        "field_name": "VisitUuid",
+                        "value": "some value"
+                      }
+                    ]
                   }
                 ]
               }
