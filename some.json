@@ -14,7 +14,7 @@
                       {
                         "action": "set_field_value",
                         "field_name": "VisitUuid",
-                        "value": "some value"
+                        "value": "some ffffff value"
                       }
                     ]
                   }
