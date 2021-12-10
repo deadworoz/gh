@@ -3,9 +3,16 @@
     "content": {
         "messages": [
             {
-                "type": "image",
-                "url": "https://solver-prod.s3.eu-central-1.amazonaws.com/prod/import/question/a6881cd6-071b-42e5-a10f-a9291fd832a4.jpg"
-            }
+                "type": "text",
+                "text": "simple text with button",
+                "buttons": [
+                  {
+                    "type": "node",
+                    "caption": "Show",
+                    "target": "My Content"
+                  }
+                ]
+              }
         ]
     }
 }
