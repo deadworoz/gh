@@ -3,23 +3,9 @@
     "content": {
         "messages": [
             {
-                "type": "text",
-                "text": "simple text with button",
-                "buttons": [
-                  {
-                    "type": "node",
-                    "caption": "Show",
-                    "target": "My Content",
-                    "actions": [
-                      {
-                        "action": "set_field_value",
-                        "field_name": "VisitUuid",
-                        "value": "some ffffff value"
-                      }
-                    ]
-                  }
-                ]
-              }
+                "type": "image",
+                "url": "https://solver-prod.s3.eu-central-1.amazonaws.com/prod/question/2358607c-6906-4be3-892d-1b4d405c381f/4ba22e8d-eade-4c42-87c0-a0ffb5b7dae8.jpg"
+            }
         ]
     }
 }
